@@ -1,0 +1,25 @@
+# Environments
+.env
+.venv
+env/
+venv/
+
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+logs/
+log/
+
+
+# Cache directories
+.cache/
+cache/
+__pycache__/

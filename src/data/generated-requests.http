@@ -1,0 +1,368 @@
+###
+POST http://localhost:8000/api/v1/profiles/generate
+Content-Type: application/json
+
+{
+  "user_id": "user_001",
+  "user_data": {
+    "registration_data": {
+      "age": 28,
+      "gender": "女",
+      "occupation": "软件工程师",
+      "education": "本科",
+      "location": "北京"
+    },
+    "text_data": [
+      "我喜欢看科技类的文章",
+      "最近在学习人工智能",
+      "周末喜欢去健身房运动"
+    ],
+    "behavior_data": {
+      "activity_data": {
+        "daily_actions": 25
+      },
+      "usage_time": {
+        "peek_hour": [
+          22
+        ]
+      }
+    },
+    "survey_data": {
+      "interests": [
+        "科技",
+        "健身",
+        "阅读"
+      ],
+      "values": [
+        "创新",
+        "健康",
+        "学习"
+      ]
+    },
+    "comments": [
+      {
+        "content": "我觉得这个平台非常有用，帮助我了解了很多新技术。"
+      },
+      {
+        "content": "这个健康网站简直就是在胡说八道"
+      }
+    ],
+    "product_reviews": [
+      {
+        "content": "这个产品价格还可以，但是质量一言难尽"
+      },
+      {
+        "content": "物流太慢了"
+      }
+    ],
+    "text_content": [
+      "健身房的锻炼让我感到精力充沛。我觉得大家都应该多运动，保持健康。而且一定要放弃那些不健康的生活方式，比如熬夜和暴饮暴食。"
+    ],
+    "personality_data": {
+      "text_samples": [
+        "我喜欢尝试新事物，尤其是科技领域的创新产品。",
+        "我认为健康是最重要的，保持良好的生活习惯对我来说至关重要。"
+      ]
+    }
+  }
+}
+
+###
+POST http://localhost:8000/api/v1/profiles/generate
+Content-Type: application/json
+
+{
+  "user_id": "user_002",
+  "user_data": {
+    "registration_data": {
+      "age": 24,
+      "gender": "女",
+      "occupation": "美妆博主",
+      "education": "大专",
+      "location": "上海"
+    },
+    "text_data": [
+      "今天分享一个超上镜的夏日妆容",
+      "最近被种草了好多护肤品",
+      "周末和闺蜜去探店了，拍了很多好看的照片"
+    ],
+    "behavior_data": {
+      "activity_data": {
+        "daily_actions": 50
+      },
+      "usage_time": {
+        "peek_hour": [
+          20
+        ]
+      }
+    },
+    "survey_data": {
+      "interests": [
+        "美妆",
+        "时尚",
+        "摄影",
+        "美食"
+      ],
+      "values": [
+        "美丽",
+        "分享",
+        "生活品质"
+      ]
+    },
+    "comments": [
+      {
+        "content": "这个App的滤镜好好看，姐妹们快去下载！"
+      },
+      {
+        "content": "这家餐厅太火了，排队等了两个小时，但味道真的很一般。"
+      }
+    ],
+    "product_reviews": [
+      {
+        "content": "这款粉底液持妆效果超棒，油皮亲妈！"
+      },
+      {
+        "content": "新买的这个口红颜色和图片色差也太大了，踩雷了。"
+      }
+    ],
+    "text_content": [
+      "女孩子一定要好好爱自己，努力搞钱，然后买自己喜欢的东西。不要在意外界的眼光，你就是最闪亮的。"
+    ],
+    "personality_data": {
+      "text_samples": [
+        "我享受在镜头前展示自己，分享美妆和穿搭心得。",
+        "我认为追求美丽是一种积极的生活态度，它能给我带来快乐和自信。"
+      ]
+    }
+  }
+}
+
+###
+POST http://localhost:8000/api/v1/profiles/generate
+Content-Type: application/json
+
+{
+  "user_id": "user_003",
+  "user_data": {
+    "registration_data": {
+      "age": 35,
+      "gender": "男",
+      "occupation": "金融分析师",
+      "education": "硕士",
+      "location": "香港"
+    },
+    "text_data": [
+      "近期市场波动较大，注意风险控制",
+      "分享一下我对新能源板块的几点看法",
+      "宏观经济数据解读"
+    ],
+    "behavior_data": {
+      "activity_data": {
+        "daily_actions": 15
+      },
+      "usage_time": {
+        "peek_hour": [
+          8,
+          23
+        ]
+      }
+    },
+    "survey_data": {
+      "interests": [
+        "财经",
+        "投资",
+        "高尔夫"
+      ],
+      "values": [
+        "理性",
+        "财富",
+        "效率"
+      ]
+    },
+    "comments": [
+      {
+        "content": "这篇文章的数据分析很到位，逻辑清晰。"
+      },
+      {
+        "content": "又看到一篇标题党文章，内容毫无价值。"
+      }
+    ],
+    "product_reviews": [
+      {
+        "content": "这款交易软件的响应速度很快，数据刷新及时，对短线交易者很友好。"
+      },
+      {
+        "content": "订阅的财经资讯会员服务，信息推送延迟严重，已经申请退款。"
+      }
+    ],
+    "text_content": [
+      "投资的核心是认知变现。你永远赚不到超出你认知范围之外的钱，除非你靠运气，但是靠运气赚到的钱，最后往往又会靠实力亏掉。"
+    ],
+    "personality_data": {
+      "text_samples": [
+        "我习惯用数据和逻辑来做决策，规避不确定性。",
+        "我相信时间就是金钱，注重个人效率和资产的增值。"
+      ]
+    }
+  }
+}
+
+
+###
+POST http://localhost:8000/api/v1/profiles/generate
+Content-Type: application/json
+
+{
+  "user_id": "user_004",
+  "user_data": {
+    "registration_data": {
+      "age": 62,
+      "gender": "女",
+      "occupation": "退休教师",
+      "education": "本科",
+      "location": "成都"
+    },
+    "text_data": [
+      "分享我家的小菜园，今天又丰收了！",
+      "刚学会了怎么用手机剪辑视频，真好玩",
+      "今天和老伴儿去公园跳舞了，开心"
+    ],
+    "behavior_data": {
+      "activity_data": {
+        "daily_actions": 10
+      },
+      "usage_time": {
+        "peek_hour": [
+          9,
+          16
+        ]
+      }
+    },
+    "survey_data": {
+      "interests": [
+        "养生",
+        "园艺",
+        "旅游",
+        "舞蹈"
+      ],
+      "values": [
+        "健康",
+        "家庭",
+        "乐观"
+      ]
+    },
+    "comments": [
+      {
+        "content": "这个养生知识讲得真好，收藏了！"
+      },
+      {
+        "content": "现在的年轻人真有才华，视频拍得跟电影一样。"
+      }
+    ],
+    "product_reviews": [
+      {
+        "content": "在网上买的种子都发芽了，店家很诚信。"
+      },
+      {
+        "content": "跟团旅游，导游一直在催着购物，体验很不好。"
+      }
+    ],
+    "text_content": [
+      "退休了生活更要多姿多彩。把自己的小日子过好，不给儿女添麻烦，健健康康，快快乐乐，就是我们老年人最大的福气。"
+    ],
+    "personality_data": {
+      "text_samples": [
+        "我对新事物总是充满好奇，喜欢学习新技能来丰富我的退休生活。",
+        "我认为保持乐观的心态和健康的身体是享受晚年生活的基础。"
+      ]
+    }
+  }
+}
+
+###
+POST http://localhost:8000/api/v1/profiles/generate
+Content-Type: application/json
+
+{
+  "user_id": "user_005",
+  "user_data": {
+    "registration_data": {
+      "age": 17,
+      "gender": "男",
+      "occupation": "学生",
+      "education": "高中在读",
+      "location": "广州"
+    },
+    "text_data": [
+      "新番里的老婆太顶了！",
+      "求推荐好玩的RPG游戏",
+      "周末去漫展，有没有一起的？"
+    ],
+    "behavior_data": {
+      "activity_data": {
+        "daily_actions": 40
+      },
+      "usage_time": {
+        "peek_hour": [
+          19,
+          23
+        ]
+      }
+    },
+    "survey_data": {
+      "interests": [
+        "动漫",
+        "游戏",
+        "手办",
+        "轻小说"
+      ],
+      "values": [
+        "热爱",
+        "伙伴",
+        "想象力"
+      ]
+    },
+    "comments": [
+      {
+        "content": "这个up主的游戏攻略做得太细致了，三连支持！"
+      },
+      {
+        "content": "剧情被魔改了，我的青春结束了……"
+      }
+    ],
+    "product_reviews": [
+      {
+        "content": "预定的手办终于到货了，做工超精细，完美！"
+      },
+      {
+        "content": "这个游戏太氪金了，不充钱根本玩不下去。"
+      }
+    ],
+    "text_content": [
+      "现实世界什么的无所谓了，我的灵魂早已留在了二次元。为了我喜欢的角色和故事，我可以付出一切！"
+    ],
+    "personality_data": {
+      "text_samples": [
+        "我沉浸在虚拟世界的故事和角色中，这能让我获得现实中没有的感动和归属感。",
+        "我认为能和有相同爱好的朋友一起交流，是一件非常快乐的事情。"
+      ]
+    }
+  }
+}
+
+
+
+<> 2025-06-12T134352.200.json
+
+###
+GET  http://localhost:8000/api/v1/profiles/profile/user_002
+Accept: application/json
+
+###
+POST  http://localhost:8000/api/v1/profiles/profile/create_segments
+Accept: application/json
+
+
+
+
+
